@@ -1,4 +1,22 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  margin-top: 0px;
+  border-radius: 100%;
+  background-color: black;
 }
